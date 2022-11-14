@@ -237,15 +237,13 @@ class FormValidation{
            this.showErrorMsg(9,this.errorValues.vehicleerr) 
         }
        }
-    
     removeInputs(){
-    
     }
-    
 }
 
 const ValidateUserInputs = new FormValidation()
-document.getElementsByClassName('form')[0].addEventListener('submit', event => {
+document.getElementsByClassName('form')[0].addEventListener('submit', event => 
+{
 event.preventDefault()
 ValidateUserInputs.getInputs()
 ValidateUserInputs.Validateyear()
