@@ -7,8 +7,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 	table, th, td {
-	  border:1px ;
-	  display:list-item;
+	  padding: 10px;
 	}
 	</style>
 </head>
@@ -47,12 +46,24 @@
 	<span></span>
 	</div>
 	<div class="form-control">
-	<label>Gear type : </label>
-	<table>
+		<h3>Gear Type</h3>
+	<table style="width:50%">
 		<tr>
-		  <td><input type="radio" name="geartype" value="manual" id="manual" /> Manual </td>
-		  <td><input type="radio" name="geartype" value="automatic" id="automatic" /> Automatic</td>
-		  <td><input type="radio" name="geartype" value="not-declared" id="not" /> Not declared</td>
+			<th></th>
+			<th></th>
+		
+		</tr>
+		<tr>
+			<td>Manual</td>
+			<td><input type="radio" name="geartype" value="manual" id="manual" /></td>
+		</tr>
+		<tr>
+			<td>Automatic</td>
+		  	<td><input type="radio" name="geartype" value="automatic" id="automatic" /></td>
+		</tr>
+		<tr>
+			<td>Not mentioned</td>
+			<td><input type="radio" name="geartype" value="not-declared" id="not" /></td>
 		</tr>
 	  </table> 
 	<i class="fas fa-check-circle"></i>
@@ -60,10 +71,26 @@
 	<span></span>
 	</div>
 	<div class="form-control">
-	<label for="damage">Your car is repaired or damaged : </label>
-	<input type="radio" name="damage" value="yes" id="yes" class="change"/> Yes
-	<input type="radio" name="damage" value="no" id="no" class="change"/> No  
-	<input type="radio" name="damage" value="not-declared" id="notdec" class="change"/> Not declared 
+		<h3>Your car is repaired or damaged :</h3>
+		<table style="width:50%">
+			<tr>
+				<th></th>
+				<th></th>
+			
+			</tr>
+			<tr>
+				<td>Yes</td>
+				<td><input type="radio" name="damage" value="yes" id="yes"/></td>
+			</tr>
+			<tr>
+				<td>No</td>
+				  <td><input type="radio" name="damage" value="no" id="no"/></td>
+			</tr>
+			<tr>
+				<td>Not Declared</td>
+				<td><input type="radio" name="damage" value="not-declared" id="notdec"/></td>
+			</tr>
+		  </table> 
 	<i class="fas fa-check-circle"></i>
 	<i class="fas fa-exclamation-circle"></i>
 	<span></span>
