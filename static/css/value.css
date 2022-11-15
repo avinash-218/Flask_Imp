@@ -1,43 +1,44 @@
 *{
-padding:0;
+padding:0px;
 margin:0;
 box-sizing:border-box;
-font-family: 'Times New Roman', Times , Serif;
+font-family: cursive;
+font-weight: bold;
+color: #E74C3C;
 }
 
 body{
-	background-image: linear-gradient(rgba(25,30,30,0.7),rgba(25,30,30,0.7)),url(../Images/car5.jpg);
+	background-image: linear-gradient(rgba(25,30,30,0.7),rgba(25,30,30,0.7)),url(../Images/car2.png);
 	min-height:100vh;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 }
 
-.container{
-	box-shadow: rgb(0,0,0) 0px 5px 15px;
-}
 .header{
-	color:white;
+	color:Black;
 	text-align:center;
-	background-color:#2a0845;
-	padding:20px 40px;
-	border-bottom:2px solid #494848;
+	padding:10px 0px 10px 100px;
 }
 
 #model{
-	width:600px;
+	width:500px;
+	color: black;
 }
 
 #brand{
-	width:600px;
+	width:500px;
+	color: black;
 }
 
 #fuel{
-	width:600px;
+	width:500px;
+	color: black;
 }
 
 #vehicle{
-	width:600px;
+	width:500px;
+	color: black;
 }
 
 .form{
@@ -48,6 +49,7 @@ body{
 	margin-bottom:10px;
 	padding-bottom: 20px;
 	position:relative;
+	margin-left: 100px;
 } 
 
 .form-control label{
@@ -56,8 +58,8 @@ body{
 }
 
 .form-control input{
-	border:2px solid #f0f0f0;
-	width:100%;
+	border: 2px solid #f0f0f0;
+	width:80%;
 	font-size :.8rem;
 	padding:5px;
 	display:inline-table;
@@ -106,16 +108,17 @@ body{
 }
 
 .form #submit{
-	background-color:#2a0845;
+	background-color:#E74C3C;
 	border:none;
 	outline:none;
 	color:white;
-	width:100%;
+	width:500px;
 	border-radius:4px;
 	padding:10px;
 	cursor:pointer;
 	transition:all .5s;
 	font-size:1rem;
+	margin-left: 100px;
 }
 
 .form #submit:hover{
